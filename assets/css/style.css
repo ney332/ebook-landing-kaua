@@ -127,7 +127,7 @@ a {
     justify-content: center;
 }
 
-/*************** HEADER *****/
+/*************** HEADER ****/
 .header {
     user-select: none;
     position: fixed;
@@ -136,15 +136,34 @@ a {
     padding: 2rem 1.2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     z-index: 99;
     transition: top 0.3s ease-in-out;
     background-color: rgba(0, 0, 0, .9); 
     backdrop-filter: blur(10px); 
-    -webkit-backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); margin-top: 20px;
+    justify-content: center;
+    
+}
+.svg{
+    float: right;
+}
+nav{
+ opacity: calc(50%);
+ display: flex;
+width:300px;
+height: 50px;
+color: white;
+border-radius: 30px;
+background-color: #3D4143;
+justify-content: center;
+align-items: center;
+} 
+a{
+text-decoration: none;
+margin-right: 40px;
 }
 
-/* Logo */
+/* Logo 
 .logo {
     width: 100%;
     color: white;
@@ -153,8 +172,8 @@ a {
 .logo img {
     width: 150px;
 }
+*/
 
-/* Menu */
 .menu {
     display: flex;
     align-items: center;
@@ -167,14 +186,9 @@ a {
     cursor: pointer;
 }
 
-.hamburger input {
-    display: none;
-}
 
-.hamburger svg {
-    height: 3em;
-    transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
+
 
 .line {
     fill: none;
@@ -198,7 +212,7 @@ a {
     stroke-dashoffset: -32.42;
 }
 
-/* Menu Navegação */
+/* Menu Navegação 
 .menu-aberto {
     background-color: var(--color-black);
     position: fixed;
@@ -252,7 +266,7 @@ a {
     color: var(--color-destaque1);
     transition: all 0.3s ease;
 }
-
+ **/
 /*************** INICIO *****/
 .inicio {
     width: 100%;
@@ -270,9 +284,9 @@ a {
     height: 100%;
     color: var(--color-white);
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 300px;
 }
 
 .conteudo-inicio {
@@ -324,7 +338,7 @@ a {
     left: 0;
     display: block;
     border-radius: 50px;
-    background: #a6b036;
+    background: #241abb;
     width: 45px;
     height: 45px;
     transition: all 0.3s ease;
