@@ -146,6 +146,8 @@ a {
 }
 .svg{
     float: right;
+    margin-right: 50px;
+
 }
 nav{
  opacity: calc(30%);
