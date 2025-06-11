@@ -167,16 +167,7 @@ margin-right: 20px;
 margin-left: 20px;
 }
 
-/* Logo 
-.logo {
-    width: 100%;
-    color: white;
-}
 
-.logo img {
-    width: 150px;
-}
-*/
 
 .menu {
     display: flex;
@@ -216,61 +207,6 @@ margin-left: 20px;
     stroke-dashoffset: -32.42;
 }
 
-/* Menu Navegação 
-.menu-aberto {
-    background-color: var(--color-black);
-    position: fixed;
-    left: 0;
-    top: 0;
-    height: 0;
-    width: 100%;
-    z-index: 98;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out;
-    opacity: 0;
-}
-
-.menu-aberto.active {
-    height: 100vh;
-    opacity: 1;
-}
-
-.nav-menu {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.nav-menu a {
-    user-select: none;
-    text-decoration: none;
-    color: var(--color-white);
-    font-family: var(--font-pequena);
-    font-size: 3rem;
-    font-weight: bold;
-    opacity: 0;
-    transform: translateY(-20px);
-    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-}
-
-.menu-aberto.active .nav-menu a {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-.nav-menu a:hover {
-    color: var(--color-destaque1);
-    transition: all 0.3s ease;
-}
- **/
 /*************** INICIO *****/
 .inicio {
     width: 100%;
